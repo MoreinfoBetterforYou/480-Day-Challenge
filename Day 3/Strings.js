@@ -51,7 +51,7 @@ console.log();
 // 7. includes(): The includes() function checks if whether a given string includes a particular character or not. It gives its answer in the form of a boolean value which may either be true or false. 
 let Includes = String1.includes("!");
 console.log("includes() function:");
-console.log(`Does the string ${String1} include the character '!'? The answer is ${EndsWith}`);
+console.log(`Does the string ${String1} include the character '!'? The answer is ${Includes}}`);
 console.log();
 
 // 8. lastIndexOf(): The lastIndexOf() function is used to give the index of the last ever occurence of a given character.
