@@ -205,3 +205,13 @@ const localeTimeString = date.toLocaleTimeString("en-PK", options);
 console.log("toLocaleTimeString(locale, options), method:");
 console.log(`The Date() object formatted with the toLocaleTimeString(locale, options) method is: ${localeTimeString}`);
 console.log();
+
+// Another important thing is Date Arithmetic which allows you to easily add or subtract date together.
+const date1 = new Date(2025, 4, 11);
+const date2 = new Date(2025, 4, 26);
+const differenceBetweenDatesInMilliseconds = date2 - date1;
+const differenceBetweenDatesInSeconds = (differenceBetweenDatesInMilliseconds / 1000);
+const differenceBetweenDatesInMinutes = (differenceBetweenDatesInMilliseconds / 60000);
+const differenceBetweenDatesInHours = (differenceBetweenDatesInMilliseconds / 3600000);
+const differenceBetweenDatesInDays = (differenceBetweenDatesInHours / 24);
+console.table([`${differenceBetweenDatesInMilliseconds}ms`, `${differenceBetweenDatesInSeconds}s`, `${differenceBetweenDatesInMinutes}min`, `${differenceBetweenDatesInHours}hr`, `${differenceBetweenDatesInDays}days`]);
