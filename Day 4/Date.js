@@ -207,11 +207,12 @@ console.log(`The Date() object formatted with the toLocaleTimeString(locale, opt
 console.log();
 
 // Another important thing is Date Arithmetic which allows you to easily add or subtract date together.
-const date1 = new Date(2025, 4, 12);
+const date1 = new Date(2025, 4, 16);
 const date2 = new Date(2026, 7, 30);
 const differenceBetweenDatesInMilliseconds = date2 - date1;
 const differenceBetweenDatesInSeconds = (differenceBetweenDatesInMilliseconds / 1000);
 const differenceBetweenDatesInMinutes = (differenceBetweenDatesInMilliseconds / 60000);
 const differenceBetweenDatesInHours = (differenceBetweenDatesInMilliseconds / 3600000);
 const differenceBetweenDatesInDays = (differenceBetweenDatesInHours / 24);
-console.table([`${differenceBetweenDatesInMilliseconds}ms`, `${differenceBetweenDatesInSeconds}s`, `${differenceBetweenDatesInMinutes}min`, `${differenceBetweenDatesInHours}hr`, `${differenceBetweenDatesInDays}days`]);
+const differenceBetweenDatesInMonths = (differenceBetweenDatesInDays / 30.4375);
+console.table([`${differenceBetweenDatesInMilliseconds} ms`, `${differenceBetweenDatesInSeconds} s`, `${differenceBetweenDatesInMinutes} min`, `${differenceBetweenDatesInHours} hr`, `${differenceBetweenDatesInDays} days`, `${differenceBetweenDatesInMonths.toFixed(2)} months`]);
