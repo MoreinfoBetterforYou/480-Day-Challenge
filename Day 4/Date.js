@@ -140,7 +140,7 @@ console.log(`The Miliseconds is: ${Miliseconds}ms`);
 console.log();
 
 // 7. getMinutes(): The getMinutes() methods is used to get the number of minutes from the Date() object.
-const Minutes = date.getSeconds();
+const Minutes = date.getMinutes();
 console.log("getMinutes() method:");
 console.log(`The Minutes is: ${Minutes}min`);
 console.log();
