@@ -19,6 +19,7 @@ shoppingList.splice(1, 1, "Bananas", "Eggs");
 shoppingList.pop();
 console.log(shoppingList);
 shoppingList.sort();
+console.log(shoppingList.indexOf("Milk"));
 shoppingList.splice(1, 0, "Carrots", "Lettuce");
 let newlist = ["Juice", "Pop"];
 shoppingList = shoppingList.concat(newlist, newlist);
