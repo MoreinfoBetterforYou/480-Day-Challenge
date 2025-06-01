@@ -33,7 +33,7 @@ After completing this course i can assure you that you will be able to master bo
     </body>
 </html>
 ```
-## A tiny peak of the type of Code you will be able to write after completing the Second Section Java Script:computer:
+## A tiny peak of the type of Code you will be able to write after completing the Second Section Java Script :computer:
 ---
 ``` js
 let todayDate = new Date();
