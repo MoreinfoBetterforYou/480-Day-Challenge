@@ -1,6 +1,6 @@
 let min = 0;
 let max = 2;
-let randomNumber = Math.floor(Math.random() * (max - min + 1) + min);;
+let randomNumber = Math.floor(Math.random() * (max - min + 1) + min);
 let choices = ["rock", "paper", "scissors"];
 let computerChoice = choices[randomNumber];
 let userChoice = prompt("Please enter your choice (rock, paper, or scissors):");
