@@ -32,4 +32,4 @@ console.log(variable);
 
 (function (variable){
     console.log(`My name is ${variable}`);
-})(`M. Hassan Farooq`);
+})(`Hassan Farooq`);
