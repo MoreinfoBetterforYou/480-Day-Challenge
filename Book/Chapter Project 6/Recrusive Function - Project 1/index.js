@@ -11,4 +11,5 @@ function countTo10(number) {
     console.log(number);
     countTo10(number + 1);
 }
+
 countTo10(1);
